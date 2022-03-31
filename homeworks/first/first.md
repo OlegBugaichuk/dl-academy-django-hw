@@ -6,6 +6,7 @@
 ![](./media/gitignore_rep.png) 
 
 Склонируй созданный репозиторий себе на компьютер, куда удобно.
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=git+clone+ссылка_на_репозиторий)](https://git.io/typing-svg)
 
 ## requirements.txt
@@ -18,17 +19,24 @@
 Открой консоль в папке репозитория и введи следующую команду для создания вирт. окружения.
 
 Для Windows
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=python+-m+venv+venv)](https://git.io/typing-svg)
+
 Для Linux
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=python3+-m+venv+venv)](https://git.io/typing-svg)
+
 После выполнения команды в этой папке должна создаться папка venv.
 
 ## Активация виртуального окружения и установка зависимостей
 Все готово для установки Django. Активируй виртуальное окружение командой
 
 Для Windows
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=venv\Scripts\activate)](https://git.io/typing-svg)
+
 Для Linux
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=source+venv/bin/activate)](https://git.io/typing-svg)
 
 После активации окружения в строке терминала должна появится пометка (venv)
@@ -37,11 +45,13 @@
 Устанавливаем Django. для этого нужно ввести команду 
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=pip+install+-r+requirements.txt)](https://git.io/typing-svg)
+
 тем самым мы установим все зависимости прописанные в файле requirements.txt
 
 ## Создаем и запускаем первый проект
 
 После установки Django, выполни команду 
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=django-admin+startproject+имя_проекта)](https://git.io/typing-svg)
 
 Эта команда создаст базовую структуру проекта Django. Должна появится папка с названием проекта. Описание всего этого вы узнаете в лекции.
@@ -51,7 +61,9 @@
 ![](https://assets.digitalocean.com/articles/63911/Django_local_server_front_page.png)
 
 Далее нужно будет создать первое приложение в проекте командой 
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=python+manage.py+startapp+имя_приложения)](https://git.io/typing-svg)
+
 Более подробно описано в лекции.
 
 Создай свою первую view для главной страницы в свое приложении и выведи на эту страницу текст - "Главная страница". Зарегистрируй view в urls. Перезапусти дев.сервер и попробуй перейти на главную страницу. 
