@@ -4,3 +4,4 @@
 
 1. [Создание проекта с нуля и первое знакомство с Django.](./homeworks/first/first.md)
 2. [Проектирование схема бд, а также знакомство с Django ORM](./homeworks/second/second.md)
+3. [Описание бизнес логики проекта](./homeworks/third/third.md)
